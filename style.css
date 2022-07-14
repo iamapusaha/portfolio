@@ -1,5 +1,6 @@
 body {
     font-family: 'Edu VIC WA NT Beginner', cursive;
+
 }
 
 h1 {
@@ -12,4 +13,34 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 40px;
+}
+
+.half-width {
+    width: 100%;
+    padding-left: 2px;
+}
+
+.half-widthh img {
+    width: 100%;
+}
+
+.button-link {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    font-size: 40px;
+    padding: 10px 40px;
+    border-radius: 10%;
+    color: white;
+}
+
+.top-bannar {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
